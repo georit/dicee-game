@@ -33,6 +33,7 @@ img {
 }
 
 button {
+  border: 1px solid #4ecca3;
   border-radius: 15px;
   padding: .7rem 1.5rem;
   margin-top: 4rem;
@@ -43,12 +44,12 @@ button {
   font-size: 2rem;
   cursor: pointer;
   text-align: center;
-  transition: background 250ms ease-in-out,
-              transform: 150ms ease; 
 }
 
 button:hover, button:focus {
   background: #B30000;
+  border: 1px solid #b30000;
+  color: #393e46;
 }
 
 footer {
