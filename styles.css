@@ -32,6 +32,25 @@ img {
   width: 80%;
 }
 
+button {
+  border-radius: 15px;
+  padding: .7rem 1.5rem;
+  margin-top: 4rem;
+  text-decoration: none;
+  background: #4ECCA3;
+  color: #FFFFFF;
+  font-family: 'Lobster', cursive;
+  font-size: 2rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out,
+              transform: 150ms ease; 
+}
+
+button:hover, button:focus {
+  background: #B30000;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;

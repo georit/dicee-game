@@ -16,4 +16,6 @@ function whoWon() {
 whoWon();
 
 document.querySelector("h1").innerText = whoWon();
+
+document.querySelector("button").addEventListener("onClick", window.location.reload());
     
